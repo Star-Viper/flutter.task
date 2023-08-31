@@ -156,7 +156,7 @@ class _ProfileBoxesState extends State<ProfileBoxes> {
             widget.value,
             style: const TextStyle(
               fontSize: 22,
-              color: Colors.fromRGBO(221, 221, 254, 1),
+              color: Colors.white,
             ),
           )
         ],
