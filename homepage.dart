@@ -52,7 +52,7 @@ class _ProfileStudentState extends State<ProfileStudent> {
                                       color: Colors.lightBlueAccent,
                                       fontSize: 85,
                                       fontWeight: FontWeight.w500),
-                                ),
+                               ),
                               ),
                               const Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -102,8 +102,7 @@ class _ProfileStudentState extends State<ProfileStudent> {
             child: ListView(
               padding: const EdgeInsets.all(0),
               children: [
-                const ProfileBoxes(
-                    name: "Full Name", value: "Shivam Sanjay Nagori"),
+                const ProfileBoxes(name: "Full Name", value: "Shivam Sanjay Nagori"),
                 const ProfileBoxes(name: "SAP ID", value: "60009210083"),
                 const ProfileBoxes(name: "Branch", value: "CSE (DS)"),
                 const ProfileBoxes(name: "CGPA", value: "8.8"),
@@ -139,7 +138,8 @@ class _ProfileBoxesState extends State<ProfileBoxes> {
             color: const Color.fromRGBO(221, 221, 254, 1), // Border color
             width: 2.0, // Border width
           ),
-          borderRadius: BorderRadius.circular(12)),
+          
+        borderRadius: BorderRadius.circular(12)),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -152,6 +152,7 @@ class _ProfileBoxesState extends State<ProfileBoxes> {
               color: Color.fromRGBO(221, 221, 254, 1),
             ),
           ),
+          
           Text(
             widget.value,
             style: const TextStyle(
