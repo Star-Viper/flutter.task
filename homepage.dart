@@ -94,6 +94,7 @@ class _ProfileStudentState extends State<ProfileStudent> {
               ),
             ),
           ),
+          
           Positioned(
             bottom: 20,
             left: 15,
